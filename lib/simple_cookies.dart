@@ -111,7 +111,7 @@ class _PopUp extends StatelessWidget {
                 Expanded(
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.green,
+                      foregroundColor: Colors.green,
                     ),
                     onPressed: () {
                       Cookies.create(Cookies.acceptedCookiesId, 'true');
